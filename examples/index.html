@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+	<title>example</title>
+</head>
+<body>
+	<div id='app'>
+		<vc-hello></vc-hello>
+        <vc-modal
+         v-ref:modal
+         :title='title'>
+         <button>button</button>
+            <div slot='body'>
+                <h2>baiduwaimai</h2>
+            </div>
+         </vc-modal>
+	</div>
+	<script src='./static/build/build.js'></script>
+</body>
+</html>
